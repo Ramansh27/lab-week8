@@ -5,13 +5,13 @@
 
 
 //step 2 select the first paragraph in the second div and add the class 'paragraph-color' so that the styles in the style sheet are applied to only that paragraph
-/*function changeClass(){
+function changeClass(){
 	const tempP = document.querySelector('.first-paragraph')
     tempP.classList.add('paragraph-color')
 }
 
 changeClass()
-*/
+
 // step 3 create a paragraph template using a template litteral
 function paragraph(phrase){
 	return `<p>${phrase}</p>`
