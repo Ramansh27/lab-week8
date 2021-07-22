@@ -13,6 +13,8 @@ function changeClass(){
 changeClass()
 
 // step 3 create a paragraph template using a template litteral
-
+function paragraph(phrase){
+	return `<p>${phrase}</p>`
+}
 
 // step 5 add the paragraph template you just created to the first div using innerHTML
